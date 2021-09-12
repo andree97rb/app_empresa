@@ -1,0 +1,87 @@
+.categoriaTable-container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.categoriaTable-container .categoriaTable-title {
+  padding: 0.5em 2em;
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #202020;
+  border-radius: 5px;
+}
+.categoriaTable-container .categoriaTable-content {
+  padding: 0 5.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.categoriaTable-container .categoriaTable-content .categoriaTable-btn-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 6.45em;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background-color: #0C9AAE;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  float: right;
+  margin-top: 2.6em;
+  margin-bottom: 1.2em;
+  font-weight: bold;
+}
+.categoriaTable-container .categoriaTable-content .categoriaTable-btn-add:hover {
+  text-decoration: none;
+  background-color: #147CBC;
+  color: #ffffff;
+}
+.categoriaTable-container .categoriaTable-content .categoriaTable-thead {
+  background-color: #0C9AAE;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+.categoriaTable-container .categoriaTable-content .categoriaTable-tbody {
+  font-size: 14px;
+}
+.categoriaTable-container .categoriaTable-content .categoriaTable-tbody .categoriaTable-num {
+  text-align: center;
+}
+.categoriaTable-container .categoriaTable-content .categoriaTable-tbody .categoriaTable-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.categoriaTable-container .categoriaTable-content .categoriaTable-tbody .categoriaTable-icon-edit {
+  font-size: 14px;
+  color: #147CBC;
+}
+.categoriaTable-container .categoriaTable-content .categoriaTable-tbody .categoriaTable-icon-edit:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 425px) {
+  .categoriaTable-container .categoriaTable-content {
+    padding: 1em 0;
+  }
+  .categoriaTable-container .categoriaTable-content .categoriaTable-btn-add {
+    margin-top: 0.9em;
+    margin-bottom: 0.8em;
+  }
+}

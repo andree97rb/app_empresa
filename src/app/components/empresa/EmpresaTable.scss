@@ -1,0 +1,64 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.empresaTable-container {
+    font-family: Arial, Helvetica, sans-serif;
+
+    .empresaTable-title {
+        @include header-title($bg-light-1, $bg-dark-2);
+    }
+
+    .empresaTable-content {
+        padding: 0 5.5em;
+        display: flex;
+        flex-direction: column;
+
+        .empresaTable-btn-add {
+            @include button($bg-light-1, $bg-blue-1, $bg-blue-2);
+            float: right;
+            margin-top: 2.6em;
+            margin-bottom: 1.2em;
+            font-weight: bold;
+        }
+
+        .empresaTable-thead {
+            background-color: $bg-blue-3;
+            font-size: 16px;
+            text-align: center;
+            color: $bg-light-1;
+        }
+
+        .empresaTable-tbody {
+            font-size: 14px;
+
+            .empresaTable-num {
+                text-align: center;
+            }
+
+            .empresaTable-action {
+                display: flex;
+                justify-content: center;
+            }
+
+            .empresaTable-icon-edit {
+                font-size: 14px;
+                color: $bg-blue-4;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 425px) {
+        .empresaTable-content {
+            padding: 1em 0;
+
+            .empresaTable-btn-add {
+                margin-top: 0.9em;
+                margin-bottom: 0.8em;
+            }
+        }
+    }
+}

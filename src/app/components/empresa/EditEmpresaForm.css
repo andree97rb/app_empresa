@@ -1,0 +1,92 @@
+.editEmpresaForm-container .editEmpresaForm-title {
+  padding: 0.5em 2em;
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #202020;
+  border-radius: 5px;
+}
+.editEmpresaForm-container .editEmpresaForm-inputs {
+  padding: 1em 5.5em;
+  margin-top: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.editEmpresaForm-container .editEmpresaForm-inputs .col-sm-6 {
+  padding-bottom: 25px;
+}
+.editEmpresaForm-container .form-group.required .form-label:after {
+  color: #DC3545;
+  content: "*";
+  position: absolute;
+  margin-left: 3px;
+}
+.editEmpresaForm-container .editEmpresaForm-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+}
+.editEmpresaForm-container .editEmpresaForm-btn-edit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 6.45em;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background-color: #0C9AAE;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.editEmpresaForm-container .editEmpresaForm-btn-edit:hover {
+  text-decoration: none;
+  background-color: #147CBC;
+  color: #ffffff;
+}
+.editEmpresaForm-container .editEmpresaForm-btn-cancel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 6.45em;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background-color: #8F2932;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-weight: bold;
+  margin-right: 2px;
+}
+.editEmpresaForm-container .editEmpresaForm-btn-cancel:hover {
+  text-decoration: none;
+  background-color: #B2391F;
+  color: #ffffff;
+}
+@media only screen and (max-width: 425px) {
+  .editEmpresaForm-container .editEmpresaForm-inputs {
+    padding: 1em 0;
+  }
+}

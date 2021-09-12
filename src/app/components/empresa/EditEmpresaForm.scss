@@ -1,0 +1,45 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.editEmpresaForm-container {
+    .editEmpresaForm-title {
+        @include header-title($bg-light-1, $bg-dark-2);
+    }
+
+    .editEmpresaForm-inputs {
+        padding: 1em 5.5em;
+        margin-top: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        .col-sm-6{
+            padding-bottom: 25px;
+        }
+    }
+
+    .form-group.required .form-label:after {
+        @include required($bg-red-3);
+    }
+
+    .editEmpresaForm-buttons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+
+    .editEmpresaForm-btn-edit {
+        @include button($bg-light-1, $bg-blue-1, $bg-blue-2);
+        font-weight: bold;
+        margin-right: 15px;
+    }
+
+    .editEmpresaForm-btn-cancel {
+        @include button($bg-light-1, $bg-red-1, $bg-red-2);
+        font-weight: bold;
+        margin-right: 2px;
+    }
+
+    @media only screen and (max-width: 425px) {
+        .editEmpresaForm-inputs {
+            padding: 1em 0;
+        }
+    }
+}

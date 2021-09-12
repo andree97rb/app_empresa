@@ -1,0 +1,37 @@
+@import '../../../assets/scss/variables';
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    background-color: $bg-light-1;
+}
+
+li {
+    z-index: 0;
+}
+
+.page-link {
+    color: $bg-blue-1;
+
+    &:hover {
+        background-color: $bg-blue-2;
+        color: $bg-light-1;
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.pagination-current-page .page-link {
+    &:hover {
+        background-color: $bg-light-1;
+        color: $bg-blue-1;
+        cursor: inherit;
+    }
+}
+
+.sr-only{
+    display: none;
+}

@@ -1,0 +1,92 @@
+.addCategoriaForm-container .addCategoriaForm-title {
+  padding: 0.5em 2em;
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #202020;
+  border-radius: 5px;
+}
+.addCategoriaForm-container .addCategoriaForm-inputs {
+  padding: 1em 5.5em;
+  margin-top: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.addCategoriaForm-container .addCategoriaForm-inputs .col-sm-6 {
+  padding-bottom: 25px;
+}
+.addCategoriaForm-container .form-group.required .form-label:after {
+  color: #DC3545;
+  content: "*";
+  position: absolute;
+  margin-left: 3px;
+}
+.addCategoriaForm-container .addCategoriaForm-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20px;
+}
+.addCategoriaForm-container .addCategoriaForm-btn-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 6.45em;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background-color: #0C9AAE;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-weight: bold;
+  margin-right: 15px;
+}
+.addCategoriaForm-container .addCategoriaForm-btn-add:hover {
+  text-decoration: none;
+  background-color: #147CBC;
+  color: #ffffff;
+}
+.addCategoriaForm-container .addCategoriaForm-btn-cancel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 6.45em;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background-color: #8F2932;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-weight: bold;
+  margin-right: 2px;
+}
+.addCategoriaForm-container .addCategoriaForm-btn-cancel:hover {
+  text-decoration: none;
+  background-color: #B2391F;
+  color: #ffffff;
+}
+@media only screen and (max-width: 425px) {
+  .addCategoriaForm-container .addCategoriaForm-inputs {
+    padding: 1em 0;
+  }
+}

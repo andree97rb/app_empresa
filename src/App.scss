@@ -1,0 +1,9 @@
+.app-container {
+    padding: 3em 10em;
+}
+
+@media only screen and (max-width: 768px) {
+    .app-container {
+        padding: 3em 2em;
+    }
+}

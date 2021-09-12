@@ -1,0 +1,87 @@
+.empresaTable-container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.empresaTable-container .empresaTable-title {
+  padding: 0.5em 2em;
+  font-size: 23px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #202020;
+  border-radius: 5px;
+}
+.empresaTable-container .empresaTable-content {
+  padding: 0 5.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.empresaTable-container .empresaTable-content .empresaTable-btn-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 6.45em;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  background-color: #0C9AAE;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  border: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  float: right;
+  margin-top: 2.6em;
+  margin-bottom: 1.2em;
+  font-weight: bold;
+}
+.empresaTable-container .empresaTable-content .empresaTable-btn-add:hover {
+  text-decoration: none;
+  background-color: #147CBC;
+  color: #ffffff;
+}
+.empresaTable-container .empresaTable-content .empresaTable-thead {
+  background-color: #0C9AAE;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+.empresaTable-container .empresaTable-content .empresaTable-tbody {
+  font-size: 14px;
+}
+.empresaTable-container .empresaTable-content .empresaTable-tbody .empresaTable-num {
+  text-align: center;
+}
+.empresaTable-container .empresaTable-content .empresaTable-tbody .empresaTable-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.empresaTable-container .empresaTable-content .empresaTable-tbody .empresaTable-icon-edit {
+  font-size: 14px;
+  color: #147CBC;
+}
+.empresaTable-container .empresaTable-content .empresaTable-tbody .empresaTable-icon-edit:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 425px) {
+  .empresaTable-container .empresaTable-content {
+    padding: 1em 0;
+  }
+  .empresaTable-container .empresaTable-content .empresaTable-btn-add {
+    margin-top: 0.9em;
+    margin-bottom: 0.8em;
+  }
+}
